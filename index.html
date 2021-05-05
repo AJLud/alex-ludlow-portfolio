@@ -4,13 +4,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     
-  <nav class="navbar has-shadow is-white">
+  <nav class="navbar has-shadow is-white is-fixed-top" id="navbar">
       <!-- logo/brand -->
       <div class="navbar-brand">
-          <a class=navbar-item>
+          <a class=navbar-item href="#hero-page">
               <p class='title py-2 px-2'>HOME</p>
           </a>
           <a class="navbar-burger" id="burger">
@@ -22,22 +23,23 @@
 
       <div class="navbar-menu is-active" id="nav-links">
           <div class="navbar-start">
+            <a class="navbar-item" href="#my-work" id="mywork">
+                <p class="is-size-5">My Work</p>
+            </a>
               <a class="navbar-item">
                   <p class="is-size-5">About Me</p>
               </a>
-              <a class="navbar-item">
-                  <p class="is-size-5">My Work</p>
-              </a>
+             
              
           </div>
           <div class="navbar-end">
             <a class="navbar-item">
                 <p class="is-size-5">Contact Me</p>
             </a>
-              <a class="navbar-item">
+              <a href="https://www.linkedin.com/in/alex-ludlow-b97359211/" target="_blank" class="navbar-item">
                   <img src="./Assets/linkedin.png" alt="linked in logo" style="max-height: 70px;" class="py-2 px-2">
               </a>
-              <a class="navbar-item">
+              <a href="https://github.com/AJLud" target="_blank" class="navbar-item">
                   <img src="./Assets/128-1280187_github-logo-png-github-transparent-png.png" alt="github logo" style="max-height: 70px;" class="py-2 px-2">
 
               </a>
@@ -45,19 +47,20 @@
 
       </div>
   </nav>
-<section class="hero is-fullheight-with-navbar is-info">
+<section class="hero is-fullheight-with-navbar is-info" id='hero-page'>
     <div class="hero-body">
        <div class="container has-text-centered">
-        <h1 class="title is-size-1-widescreen is-family-monospace has-text-weight-bold">//Alex Ludlow</h1>
+        <h1 class="title is-family-monospace has-text-weight-bold is-white px-6 py-6" id="splash-name">//Alex Ludlow</h1>
 
-        <h2 class="subtitle is-size-2 is-family-monospace has-text-weight-normal">//Trainee Full Stack Developer</h2>
+        <h2 class="subtitle is-size-2 is-family-monospace has-text-weight-normal py-6">//Trainee Full Stack Developer</h2>
        </div>
         
     </div>
 </section>
 
 
-<section class="section is-large">
+<section class="section is-large" id='my-work'>
+    <h1 class="title has-text-centered py-6" id="mywork" name='mywork'>My Work</h1>
     <div class="container">
         <div class="columns">
             <div class="column">
