@@ -1,12 +1,15 @@
 @media screen {
   #splash-name {
-    font-size: 150px;
+    font-size: 130px;
     color: white;
   }
   #mywork {
     font-size: 100px;
   }
   #about-me-title {
+    font-size: 100px;
+  }
+  #contact-me-title {
     font-size: 100px;
   }
 }
@@ -17,6 +20,9 @@
   }
   #about-me-title {
     font-size: 70px;
+  }
+  #contact-me-title {
+    font-size: 65px;
   }
 }
 

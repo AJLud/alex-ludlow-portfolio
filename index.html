@@ -56,9 +56,9 @@
 <section class="hero is-fullheight-with-navbar is-white" id='home'>
     <div class="hero-body">
        <div class="container has-background-info">
-        <h1 class="title has-text-centered-mobile has-text-left-desktop has-text-weight-bold is-white px-6 py-6 my-6" id="splash-name">//Alex Ludlow</h1>
+        <h1 class="title has-text-centered-mobile has-text-left-desktop has-text-weight-medium is-white px-6 py-6 my-6 is-family-monospace" id="splash-name">//Alex Ludlow</h1>
 
-        <h2 class="subtitle is-size-2 has-text-right-desktop has-text-centered-mobile is-family-secondary has-text-weight-normal py-6 my-6 px-4" id="splash-job">
+        <h2 class="subtitle is-size-2 has-text-right-desktop has-text-centered-mobile is-family-monospace has-text-weight-normal py-6 my-6 px-4" id="splash-job">
             //Trainee Full Stack Developer <br>
             // I like to build things
         </h2>
@@ -69,13 +69,13 @@
 
 <!-- MY WORK PAGE ---------------------------------------------------------------------------------------------------------------------------------- -->
 <section class="section" id='my-work'>
-    <h1 class="title has-text-centered py-6" id="mywork">//My Work</h1>
+    <h1 class="title has-text-centered py-6 is-family-monospace" id="mywork">//My Work</h1>
     
     <div class="container">
         <div class="columns">
             <div class="column is-justify-content-center">
-                <h3 class='title has-text-centered'>NC-Games API</h3>
-                <p class="has-text-centered">
+                <h3 class='title has-text-centered is-family-monospace'>NC-Games API</h3>
+                <p class="has-text-centered is-family-monospace">
                     This API is a project that was created at Northcoders. Creating this has been an incredible experience
                     that has been invaluable in learning about new technologies and libraries and also helping cement my
                     fundamental JS skills.
@@ -84,14 +84,14 @@
                 <br>
                    
                 <figure> 
-                    <h4 class= "title is-size-6 has-text-centered">Tech Used</h4>
+                    <h4 class= "title is-size-6 has-text-centered is-family-monospace">Tech Used</h4>
                     <img src="./Assets/node-pg-jest.png" alt="">
                 </figure>
                     
             </div>
             <div class="column">
-                <h3 class="title has-text-centered">My Portfolio</h3>
-                <p class="has-text-centered">
+                <h3 class="title has-text-centered is-family-monospace">My Portfolio</h3>
+                <p class="has-text-centered is-family-monospace">
                     This portfolio itself is a project that has been a whole new learning curve in teaching myself about HTML 5
                     and CSS as well as using the CSS Bulma framework and its documentation to create a stylish looking single page application.
                 </p>
@@ -100,14 +100,14 @@
                 <br>
 
                   <figure> 
-                      <h4 class= "title is-size-6 has-text-centered">Tech Used</h4>
+                      <h4 class= "title is-size-6 has-text-centered is-family-monospace">Tech Used</h4>
                       <img src="./Assets/Bulma-HTML-logo.png" alt="">
                   </figure>
                 
             </div>
             <div class="column">
-                <h3 class='title has-text-centered'>Javascript Snake Game</h3>
-                <p class="has-text-centered"> 
+                <h3 class='title has-text-centered is-family-monospace'>Javascript Snake Game</h3>
+                <p class="has-text-centered is-family-monospace"> 
                     Snake is a game I used to love playing on mobile phones before smartphones
                     became the norm and I saw this as a fun JS project to make in my free time between my course projects and also to bring back some nostalgia.
                     This helped me see different applications for Javascript to be implemented!  
@@ -115,7 +115,7 @@
                 <br>
 
                 <figure> 
-                    <h4 class= "title is-size-6 has-text-centered">Tech Used</h4>
+                    <h4 class= "title is-size-6 has-text-centered is">Tech Used</h4>
                     <img src="./Assets/html-js-logo.png " alt="">
                 </figure>
                 
@@ -130,21 +130,31 @@
 
 <section class="section is-medium" id='about-me'>
     <div class="container">
-        <h2 class='title has-text-centered has-text-black py-3' id="about-me-title">//About Me</h2>
+        <h2 class='title has-text-centered has-text-black py-6 is-family-monospace' id="about-me-title">//About Me</h2>
         <div class="container">
-            <p class="has text has-text-centered">
-                Hello! I am Alex.
-                I am currently a student enrolled on the Coding Bootcamp course at Northcoders.
-                This course has made me discover how much fun coding can be (and how frustrating sometimes...) but also incredibly rewarding.
-                <br>
-                <br>
-                In my previous life I worked as a camera assistant in the TV and Film industry, working on some incredible shows (and not so incredible ones too).
-                <br>
-                <br>
-                Making this career change has ignited my passion for learning again, and I have only yet dipped my toe in the pond.
-                <br>
-                In my spare time I enjoy a bit of gaming and I love going out onto the water with my Paddleboard!
-            </p>
+            <div class="columns">
+                <div class="column">
+                    <figure>
+                        <img class="pt-6" src="./Assets/Paddleboard-Placeholder.png" alt="" style="max-height: 500px;">
+                    </figure>
+                   
+                </div>
+                <div class="column">
+                    <p class="has text has-text-centered pt-6 text is-size-5 is is-family-monospace">
+                        Hello! I am Alex.
+                        I am currently a student enrolled on the Coding Bootcamp course at Northcoders.
+                        This course has made me discover how much fun coding can be (and how frustrating sometimes...) but also incredibly rewarding.
+                        <br>
+                        <br>
+                        In my previous life I worked as a camera assistant in the TV and Film industry, working on some incredible shows (and not so incredible ones too).
+                        <br>
+                        <br>
+                        Making this career change has ignited my passion for learning again, and I have only yet dipped my toe in the pond.
+                        <br>
+                        In my spare time I enjoy a bit of gaming and I love going out onto the water with my Paddleboard!
+                    </p>
+                </div>
+            </div>
     
         </div>
 
@@ -153,8 +163,9 @@
 
 </section>
 
-<section class="section">
+<section class="section" id="contact-me">
     <div class="container">
+        <h2 class="title has has-text-centered is-family-monospace" id="contact-me-title">//Contact Me!</h2>
 
     </div>
 </section>
@@ -173,3 +184,19 @@
 
                 <!-- <div class="column is-one-fifth-mobile"><img src="./Assets/postgres.png" alt="postgres-logo" style="max-height: 120px;"> -->
                     <!-- <img src="./Assets/Jest-logo2.jpg" alt="jest-logo" style="max-height: 120px;"></div> -->
+
+<!-- 
+
+                    <p class="has text has-text-centered">
+                        Hello! I am Alex.
+                        I am currently a student enrolled on the Coding Bootcamp course at Northcoders.
+                        This course has made me discover how much fun coding can be (and how frustrating sometimes...) but also incredibly rewarding.
+                        <br>
+                        <br>
+                        In my previous life I worked as a camera assistant in the TV and Film industry, working on some incredible shows (and not so incredible ones too).
+                        <br>
+                        <br>
+                        Making this career change has ignited my passion for learning again, and I have only yet dipped my toe in the pond.
+                        <br>
+                        In my spare time I enjoy a bit of gaming and I love going out onto the water with my Paddleboard!
+                    </p> -->
