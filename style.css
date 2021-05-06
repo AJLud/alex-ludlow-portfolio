@@ -3,18 +3,23 @@
     font-size: 150px;
     color: white;
   }
+  #mywork {
+    font-size: 100px;
+  }
+  #about-me-title {
+    font-size: 100px;
+  }
 }
 @media screen and (max-width: 600px) {
   #splash-name {
-    font-size: 70px;
+    font-size: 50px;
     color: white;
+  }
+  #about-me-title {
+    font-size: 70px;
   }
 }
 
-#navbar {
-  color: rgb(124, 4, 139);
-}
-
-#mywork {
-  font-size: 100px;
+#splash-job {
+  color: white;
 }
