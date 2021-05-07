@@ -1,7 +1,9 @@
 @media screen {
   #splash-name {
     font-size: 130px;
-    color: black;
+    color: white;
+    text-shadow: 2px 2px 1px 1px rgb(5, 5, 5);
+    padding-top: 200px;
   }
   #mywork {
     font-size: 100px;
@@ -12,40 +14,39 @@
   #contact-me-title {
     font-size: 100px;
   }
+  #splash-job {
+    color: white;
+    text-shadow: 2px 2px 1px 1px rgb(0, 0, 0);
+  }
 }
 @media screen and (max-width: 600px) {
   #splash-name {
-    font-size: 50px;
-    color: black;
+    position: relative;
+    font-size: 70px;
+    text-shadow: 2px 2px 1px 1px rgb(0, 0, 0);
   }
   #about-me-title {
-    font-size: 70px;
+    font-size: 60px;
   }
   #contact-me-title {
-    font-size: 65px;
+    font-size: 50px;
   }
 }
 
 #splash-job {
   color: white;
+  text-shadow: 2px 2px 1px 1px rgb(0, 0, 0);
 }
 
-/* Top left text */
-.top-left {
-  position: absolute;
-  top: 300px;
-  left: 160px;
-  color: white;
-  font-family: monospace;
-  font-size: 120;
-  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+.bg-img {
+  background-image: url(./Assets/pixelbg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: whitesmoke;
 }
 
-/* Bottom right text */
-.bottom-right {
-  position: absolute;
-  bottom: 100px;
-  right: 100px;
-  font-family: monospace;
-  font-size: 80;
+.has-text-shadow {
+  text-shadow: 5px 5px 2px 2px rgb(5, 5, 5);
 }
