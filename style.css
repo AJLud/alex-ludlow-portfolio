@@ -2,7 +2,7 @@
   #splash-name {
     font-size: 130px;
     color: white;
-    text-shadow: 2px 2px 1px 1px rgb(5, 5, 5);
+    text-shadow: 3px 3px black;
     padding-top: 200px;
   }
   #mywork {
@@ -15,27 +15,30 @@
     font-size: 100px;
   }
   #splash-job {
-    color: white;
-    text-shadow: 2px 2px 1px 1px rgb(0, 0, 0);
+    color: whitesmoke;
+    text-shadow: 3px 3px rgb(0, 0, 0);
   }
 }
 @media screen and (max-width: 600px) {
   #splash-name {
     position: relative;
-    font-size: 70px;
-    text-shadow: 2px 2px 1px 1px rgb(0, 0, 0);
+    font-size: 50px;
+    text-shadow: 3px 3px rgb(0, 0, 0);
   }
   #about-me-title {
-    font-size: 60px;
+    font-size: 40px;
   }
   #contact-me-title {
+    font-size: 32px;
+  }
+  #splash-job {
+    font-size: 30px;
+    color: whitesmoke;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+  }
+  #mywork {
     font-size: 50px;
   }
-}
-
-#splash-job {
-  color: white;
-  text-shadow: 2px 2px 1px 1px rgb(0, 0, 0);
 }
 
 .bg-img {
@@ -47,6 +50,10 @@
   background-color: whitesmoke;
 }
 
-.has-text-shadow {
-  text-shadow: 5px 5px 2px 2px rgb(5, 5, 5);
+body {
+  font-family: "Press Start 2P", cursive;
+}
+
+#about-me {
+  text-shadow: 3px 3px black;
 }
