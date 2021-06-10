@@ -56,9 +56,22 @@
 }
 
 body {
-  font-family: "Press Start 2P", cursive;
+  font-family: 'Press Start 2P', cursive;
 }
 
 #about-me {
   text-shadow: 3px 3px black;
+}
+
+.navbar-item:hover {
+  background-color: rgb(113, 35, 165);
+}
+
+.about-bg-img {
+  background-image: url(./Assets/about-me-backgournd.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: whitesmoke;
 }
