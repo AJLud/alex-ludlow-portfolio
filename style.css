@@ -47,7 +47,7 @@
 }
 
 .bg-img {
-  background-image: url(./Assets/pixelbg.jpg);
+  background-image: url(./Assets/LowResAboutBG.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -68,10 +68,14 @@ body {
 }
 
 .about-bg-img {
-  background-image: url(./Assets/about-me-backgournd.jpg);
+  background-image: url(./Assets/LowResAboutBG.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color: whitesmoke;
+}
+
+.project-info {
+  font-size: 13px;
 }
